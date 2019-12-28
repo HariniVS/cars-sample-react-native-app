@@ -10,6 +10,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "axios": "^0.19.0",
+    "babel-plugin-jsx-control-statements": "^4.0.0",
+    "eslint-plugin-jsx-control-statements": "^2.2.1",
+    "jsx-control-statements": "^3.2.8",
     "react": "16.9.0",
     "react-native": "0.61.5"
   },
