@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {View} from 'react-native';
+import {ScrollView} from 'react-native';
 import getCarList from '../service/CarService';
 import CarDetails from './CarDetails';
 
@@ -15,11 +15,11 @@ const CarList = () => {
   return (
     <Choose>
       <When condition={cars}>
-        <View>
+        <ScrollView>
           <For each="car" of={cars}>
-            <CarDetails key={car.brand} brand={car.brand} />
+            <CarDetails key={car.brand} car={car} />
           </For>
-        </View>
+        </ScrollView>
       </When>
     </Choose>
   );
