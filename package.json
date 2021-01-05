@@ -10,7 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-plugin-jsx-control-statements": "^4.0.0",
     "eslint-plugin-jsx-control-statements": "^2.2.1",
     "jsx-control-statements": "^3.2.8",
